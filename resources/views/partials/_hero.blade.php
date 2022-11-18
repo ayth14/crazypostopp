@@ -11,7 +11,7 @@ class="relative h-72 bg-laravel flex flex-col justify-center align-center text-c
         Crazy<span class="text-green-400">Post</span><span class="text-black">Opp</span>
     </h1>
     <p class="text-2xl text-gray-200 font-bold my-4">
-        Find or post Laravel jobs & projects
+        Find your crazy post Opp & Projects
     </p>
     <div>
         <a

@@ -17,6 +17,11 @@ use Illuminate\Support\Facades\Route;
 Route::controller(HomeControllers::class)
     ->group( function () {
         Route::get('/', 'index')->name('home');
+        Route::get('/post/create', 'create')->name('post.create');
+        Route::post('store', 'store')->name('post.store');
+        
+        
         Route::get('/post/{postList}', 'postView')->name('post.view');
+
     });
 
