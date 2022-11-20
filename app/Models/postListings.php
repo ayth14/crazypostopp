@@ -15,7 +15,8 @@ class postListings extends Model
         'tags',
         'location',
         'email',
-        'description'
+        'description',
+        'logo'
     ];
 
     public function scopeFilter($query, array $filters){
